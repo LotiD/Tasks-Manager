@@ -64,8 +64,38 @@ form button:hover {
   margin-top: 20px;
 }
 
-.sort-button{
+.sort-buttons{
   margin-top: 20px;
+}
+
+.alignment{
+  margin-right: 15px;
+}
+
+.sort-button {
+  background-color: #4CAF50; /* Couleur de fond verte */
+  color: white; /* Couleur du texte en blanc */
+  border: none; /* Supprimer la bordure par défaut */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  text-align: center; /* Centrer le texte */
+  text-decoration: none; /* Pas de soulignement */
+  display: inline-block; /* Disposition en ligne */
+  font-size: 16px; /* Taille du texte */
+  cursor: pointer; /* Curseur pointeur pour l'interaction */
+  border-radius: 8px; /* Coins arrondis */
+  transition: background-color 0.3s, transform 0.2s; /* Effet de transition sur la couleur et la transformation */
+}
+
+/* Effet au survol du bouton */
+.sort-button:hover {
+  background-color: #45a049; /* Couleur de fond légèrement plus foncée */
+  transform: scale(1.1); /* Légère augmentation de la taille */
+}
+
+
+.sort-button:active {
+  background-color: #388e3c; /* Couleur de fond lors du clic */
+  transform: scale(0.98); /* Réduction de la taille pour l'effet de clic */
 }
 
 .task-item {

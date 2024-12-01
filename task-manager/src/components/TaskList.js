@@ -12,9 +12,9 @@ const TaskList = ({ tasks, onDelete, onToggle }) => {
 
   return (
     <div>
-      <div className="sort-button">
-        <button onClick={() => setSortMethod("status")}>Sort by Status</button>
-        <button onClick={() => setSortMethod("alpha")}>Sort Alphabetically</button>
+      <div className="sort-buttons">
+        <button className="sort-button alignment" onClick={() => setSortMethod("status")}>Sort by Status</button>
+        <button className="sort-button" onClick={() => setSortMethod("alpha")}>Sort Alphabetically</button>
       </div>
       {sortedTasks.map(task => (
         <TaskItem
