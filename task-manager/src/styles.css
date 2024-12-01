@@ -1,6 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-image: url('../public/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
 }
