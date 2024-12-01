@@ -60,6 +60,10 @@ form button:hover {
   margin-top: 20px;
 }
 
+.sort-button{
+  margin-top: 20px;
+}
+
 .task-item {
   display: flex;
   justify-content: space-between;
