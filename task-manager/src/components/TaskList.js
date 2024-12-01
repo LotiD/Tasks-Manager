@@ -12,7 +12,7 @@ const TaskList = ({ tasks, onDelete, onToggle }) => {
 
   return (
     <div>
-      <div>
+      <div className="sortButton">
         <button onClick={() => setSortMethod("status")}>Sort by Status</button>
         <button onClick={() => setSortMethod("alpha")}>Sort Alphabetically</button>
       </div>
